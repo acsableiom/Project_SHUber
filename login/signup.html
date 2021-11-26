@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    
+    <div class="container">
+
+        <header>
+            <img src="1f695.png" alt="">
+            <h1 class="shuber"> Sign up with SHUber</h1>
+        </header>
+
+        <nav></nav>
+    
+        <main>
+            <div class="box1">
+
+                <p class="fname">First name (required) &emsp; &emsp; &emsp; &ensp; &ensp;<p class="fsur">Surname (required)</p></p>
+                <div class="textbox">
+                    <input type="username" placeholder="First name">
+                </div>
+
+                <div class="textbox2">
+                    <input type="surname" placeholder="Surname">
+                </div>
+                
+                <p class="pnumbertxt">Enter your phone number (required)</p>
+
+                <div class="textbox3">
+                    <input type="pnumber" placeholder="Phone number">
+                </div>
+
+                <p class="emailtxt">Enter your email address (required)</p>
+                
+                <div class="textbox4">
+                    <input type="email" placeholder="Email">
+                </div>
+
+                <p class="passwordtxt">Enter a password (required)</p>
+                
+                <div class="textbox5">
+                    <input type="password" placeholder="Password">
+                </div>
+
+                <input class="btn" type="Button" value="SIGN UP" onclick="myFunction()">
+                <script>
+                    function myFunction() {
+                      alert("Account Successfully Created");
+                      window.location.href = "loginhome.html";
+                    }
+                    </script>
+
+                <p class="newaccount">Already have an account? <a href="loginhome.html" class="signup">Sign in</a></p>
+
+
+                <p class="tc">By clicking "Sign up" you agree to SHUber's <a href="" class="tou">Terms of Use</a> and acknowledge
+                    you have read the <a href="" class="pp">Privacy Policy</a>. You also consent to recieve calls or SMS messages,
+                    including by automated dialler, from SHUber and its affiliates to the number you
+                    provide for informational and/or marketing purposes. Consent to recieve marketing
+                    messages is not a condition of using SHUber's services. You understand that you may 
+                    opt out by texting "STOP" to 12345.
+                </p>
+            </div>
+        </main>
+    
+        <footer>
+            
+        </footer>
+
+    </div>
+
+</body>
+
+
+</html>

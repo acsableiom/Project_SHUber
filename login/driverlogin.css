@@ -1,0 +1,249 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(201, 201, 201);
+    margin-left: 0px;
+    background-image: url(download\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+}
+
+.container {
+    width: 375px;
+}
+
+header {
+background-color: rgba(0, 0, 255, 0);
+    height: 1px;
+}
+
+nav {
+    background-color: rgba(255, 0, 0, 0);
+    height: 40px;
+}
+
+main {
+    background-color: rgba(255, 166, 0, 0);
+    height: 400px;
+}
+
+footer {
+    background-color: rgba(172, 255, 47, 0);
+    height: 100px;
+}
+
+.box1 {
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    height: 750px;
+    width: 100%;
+    margin-top: -50px;
+
+}
+
+h1 {
+    font-size: 24px;
+    color: rgb(83, 83, 83);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+.textbox {
+    width: 90%;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.textbox input {
+    font-size: 14px;
+    width: 90%;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.textbox2 {
+    width: 90%;
+    overflow: hidden;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.textbox2 input {
+    font-size: 14px;
+    width: 90%;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.textbox3 {
+    width: 90%;
+    overflow: hidden;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.textbox3 input {
+    font-size: 14px;
+    width: 90%;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.textbox4 {
+    width: 90%;
+    overflow: hidden;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.textbox4 input {
+    font-size: 14px;
+    width: 90%;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.textbox5 {
+    width: 90%;
+    overflow: hidden;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.textbox5 input {
+    font-size: 14px;
+    width: 90%;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.textbox6 {
+    width: 90%;
+    overflow: hidden;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.textbox6 input {
+    font-size: 14px;
+    width: 90%;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.ddetails {
+    padding-top: 60px;
+    margin-right: 240px;
+    color: rgb(83, 83, 83);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.textbox7 {
+    width: 90%;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.textbox7 input {
+    font-size: 14px;
+    width: 90%;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.textbox8 {
+    width: 90%;
+    overflow: hidden;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.textbox8 input {
+    font-size: 14px;
+    width: 90%;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.textbox9 {
+    width: 90%;
+    overflow: hidden;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.textbox9 input {
+    font-size: 14px;
+    width: 90%;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.textbox10 {
+    width: 90%;
+    overflow: hidden;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.textbox10 input {
+    font-size: 14px;
+    width: 90%;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.btn {
+    width: 60%;
+    background: rgb(21, 156, 247);
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+    border: 2px solid rgb(9, 57, 88);
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: -30px;
+}
+
+.btn:hover {
+    background: rgb(18, 137, 216);
+}
+
+.shuber {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.pdetails {
+    padding-top: 60px;
+    margin-right: 225px;
+    color: rgb(83, 83, 83);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.newaccount {
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.signup{
+    font-size: 12px;
+    margin-left: 3px;
+    text-decoration: none;
+}
+
+.signup:hover {
+    color: rgb(1, 1, 167);
+    font-weight: bold;
+}
+
+.line {
+    color: gray;
+    margin-top: 20px;
+}

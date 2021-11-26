@@ -1,0 +1,81 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(201, 201, 201);
+    margin-left: 0px;
+    background-image: url(download\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 375px;
+}
+
+header {
+background-color: rgba(0, 0, 255, 0);
+    height: 1px;
+}
+
+nav {
+    background-color: rgba(255, 0, 0, 0);
+    height: 40px;
+}
+
+main {
+    background-color: rgba(255, 166, 0, 0);
+    height: 400px;
+}
+
+footer {
+    background-color: rgba(172, 255, 47, 0);
+    height: 100px;
+}
+
+.box1 {
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    height: 730px;
+    width: 100%;
+    margin-top: -30px;
+
+}
+
+h1 {
+    font-size: 52px;
+    color: rgb(2, 31, 126);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-top: 110px;
+    text-align: center;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    margin-left: 100px;
+}
+
+.one {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 370px;
+    color: gray;
+    margin-top: 20px;
+}
+
+.two {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 40px;
+}
+
+.three {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 40px;
+}

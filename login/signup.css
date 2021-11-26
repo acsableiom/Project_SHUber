@@ -1,0 +1,215 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(201, 201, 201);
+    margin-left: 0px;
+    background-image: url(download\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 375px;
+}
+
+header {
+background-color: rgba(0, 0, 255, 0);
+    height: 1px;
+}
+
+nav {
+    background-color: rgba(255, 0, 0, 0);
+    height: 40px;
+}
+
+main {
+    background-color: rgba(255, 166, 0, 0);
+    height: 400px;
+}
+
+footer {
+    background-color: rgba(172, 255, 47, 0);
+    height: 100px;
+}
+
+.box1 {
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    height: 730px;
+    width: 100%;
+    margin-top: -50px;
+
+}
+
+h1 {
+    font-size: 24px;
+    color: rgb(83, 83, 83);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+.textbox, .textbox2 {
+    display: block;
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.textbox input {
+    font-size: 16px;
+    width: 80%;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.textbox2 input {
+    font-size: 16px;
+    width: 85%;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.textbox3 {
+    width: 100%;
+    font-size: 16px;
+}
+
+.textbox3 input {
+    font-size: 16px;
+    width: 90%;
+    height: 35px;
+    margin: 0px 10px;
+}
+
+.textbox4 {
+    width: 100%;
+    font-size: 16px;
+}
+
+.textbox4 input {
+    font-size: 16px;
+    width: 90%;
+    height: 35px;
+    margin: 0px 10px;
+}
+
+.textbox5 {
+    width: 100%;
+    font-size: 16px;
+}
+
+.textbox5 input {
+    font-size: 16px;
+    width: 90%;
+    height: 35px;
+    margin: 0px 10px;
+}
+
+.btn {
+    width: 80%;
+    background: rgb(21, 156, 247);
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+    border: 2px solid rgb(9, 57, 88);
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+.btn:hover {
+    background: rgb(18, 137, 216);
+}
+
+a {
+    color: rgb(45, 45, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 13px;
+    color: rgb(77, 76, 76);
+    margin-top: 40px;
+}
+
+.newaccount {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+.signup{
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+.signup:hover {
+    color: rgb(1, 1, 167);
+    font-weight: bold;
+}
+
+img {
+    height: 70px;
+    width: 80px;
+    margin-left: 150px;
+    margin-top: -20px;
+}
+
+.shuber {
+    text-align: center;
+}
+
+.fname, .fsur {
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+.pnumbertxt {
+    padding-top: 210px;
+    margin-left: -140px;
+}
+.emailtxt {
+    margin-top: 20px;
+    margin-left: -140px;
+}
+
+.passwordtxt {
+    margin-top: 20px;
+    margin-left: -180px;
+}
+
+.tc {
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+
+.tou {
+    font-size: 8px;
+    margin-left: 0px;
+}
+
+.tou:hover {
+    color: rgb(1, 1, 167);
+    font-weight: bold;
+}
+
+.pp {
+    font-size: 8px;
+    margin-left: 0px;
+}
+
+.pp:hover {
+    color: rgb(1, 1, 167);
+    font-weight: bold;
+}

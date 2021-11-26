@@ -1,0 +1,194 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(201, 201, 201);
+    margin-left: 0px;
+    background-image: url(download\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 375px;
+}
+
+header {
+background-color: rgba(0, 0, 255, 0);
+    height: 1px;
+}
+
+nav {
+    background-color: rgba(255, 0, 0, 0);
+    height: 40px;
+}
+
+main {
+    background-color: rgba(255, 166, 0, 0);
+    height: 400px;
+}
+
+footer {
+    background-color: rgba(172, 255, 47, 0);
+    height: 100px;
+}
+
+.box1 {
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    height: 730px;
+    width: 100%;
+    margin-top: -50px;
+
+}
+
+h1 {
+    font-size: 24px;
+    color: rgb(83, 83, 83);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+
+.textbox {
+    width: 100%;
+    font-size: 16px;
+}
+
+.textbox input {
+    font-size: 16px;
+    width: 90%;
+    height: 35px;
+    margin: 0px 10px;
+}
+
+.textbox1 {
+    width: 100%;
+    font-size: 16px;
+}
+
+.textbox1 input {
+    font-size: 16px;
+    width: 90%;
+    height: 35px;
+    margin: 0px 10px;
+}
+
+.btn {
+    width: 80%;
+    background: rgb(21, 156, 247);
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+    border: 2px solid rgb(9, 57, 88);
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.btn:hover {
+    background: rgb(18, 137, 216);
+}
+
+a {
+    color: rgb(45, 45, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 13px;
+    color: rgb(77, 76, 76);
+    margin-top: 40px;
+}
+
+img {
+    height: 90px;
+    width: 110px;
+    margin-left: 130px;
+    margin-top: -40px;
+}
+
+.shuber {
+    text-align: center;
+    font-size: 42px;
+    padding-top: 100px;
+}
+
+.emailtxt {
+    padding-top: 250px;
+    margin-left: -160px;
+}
+
+.passwordtxt {
+    margin-top: 20px;
+    margin-left: -250px;
+}
+
+.alt {
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.box2 {
+    height: 35px;
+    width: 130px;
+    margin-left: 120px;
+    background-image: url(facebookicon.png);
+    background-size: 27%;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+.or {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.box3 {
+    height: 35px;
+    width: 130px;
+    margin-left: 120px;
+    background-image: url(googleicon.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    background-position: left;
+}
+
+.newaccount {
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+
+.signup{
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+.signup:hover {
+    color: rgb(1, 1, 167);
+    font-weight: bold;
+}
+
+.facebook {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.google {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.line {
+    margin-top: 30px;
+    color: rgba(128, 128, 128, 0.541);
+}
