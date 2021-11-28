@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles\style.css" rel="stylesheet">
+    <title>Select payment method</title>
+</head>
+    <body>
+        <div class="container flex-container">
+            <div id="review-card">
+                <h1>Select payment method</h1>
+                <h4>Please select your payment method for this ride</h4>
+
+                <form id="review-form">
+                    <h3>Method:</h3>
+                    <p>Select your payment method</p>
+                    <input type="radio" id="card" name="given_rating" value="card">
+                    <label for="card">Credit / Debit card</label>
+                    <input type="radio" id="paypal" name="given_rating" value="paypal" onclick="window.alert('Paypal verification')">
+                    <label for="paypal">Paypal</label>
+
+
+                    <p>Enter you card details</p>
+
+                    <input type ="text" id="card-number" name="card-number" placeholder="Card number" style="width: 94%"><br>
+                    
+                    <input type="text" id="card-month" name="card-month" placeholder="MM" style="width: 29%; margin-top: 3px; margin-bottom: 5px;">
+                    
+                    <input type="text" id="card-year" name="card-year" placeholder="YY" style="width: 29%; margin-top: 3px; margin-bottom: 5px;">
+                    <input type="text" id="card-csv" name="card-csv" placeholder="CSV" style="width: 29%; margin-top: 3px; margin-bottom: 5px;">
+
+                    <button>Submit</button>
+                </form>  
+            </div>
+        </div>
+    </body>
+</html>

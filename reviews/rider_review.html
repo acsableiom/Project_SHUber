@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles\style.css" rel="stylesheet">
+    <title>Rider review</title>
+</head>
+    <body>
+        <div class="container flex-container">
+            <div id="review-card">
+                <h1>Rate your rider</h1>
+                <h4>You are currently writing a review for [name]</h4>
+
+                <form id="review-form">
+                    <h3>Rating:</h3>
+                    <p>What is your rating of [name]?</p>
+                    <input type="radio" id="rating_1" name="given_rating" value="rating_1">
+                    <label for="rating_1">1</label>
+                    <input type="radio" id="rating_2" name="given_rating" value="rating_2">
+                    <label for="rating_2">2</label>
+                    <input type="radio" id="rating_3" name="given_rating" value="rating_3">
+                    <label for="rating_3">3</label>
+                    <input type="radio" id="rating_4" name="given_rating" value="rating_4">
+                    <label for="rating_4">4</label>
+                    <input type="radio" id="rating_5" name="given_rating" value="rating_5">
+                    <label for="rating_5">5</label>
+
+                    <p>Would you want to drive this rider again?</p>
+                    <input type="radio" id="again_yes" name="given_rating" value="again_yes">
+                    <label for="again_yes">Yes</label>
+                    <input type="radio" id="again_no" name="given_rating" value="again_no">
+                    <label for="again_no">No</label>
+                    
+                    <p>What is your reasoning for this rating?</p>
+                    <textarea id="rating-reasoning" name="reasoning"></textarea> 
+                    <button>Submit</button>
+                </form>
+
+               
+            </div>
+        </div>
+    </body>
+</html>
