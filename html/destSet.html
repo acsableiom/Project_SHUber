@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHUber</title>
+    <link rel="stylesheet" href="../css/passenger.css" type="text/css">
+    <script src="../scripts/map.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://kit.fontawesome.com/bb170acc1d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="main">
+        <header class="passHeader">
+        </header>
+        <div class="container">
+            <div id="destInput">
+                <div id="backBtn">
+                    <i style='font-size:30px' onclick="window.location.href = '../html/index.html';"
+                        class='fas'>&#xf104;</i>
+                </div>
+                <div id="destBox">
+                    <div class="dsFrom">
+                        <h3>From:</h3>
+                        <input type="text" class="userDest" placeholder="Current Location">
+                    </div>
+                    <div class="dsTo">
+                        <h3>To:</h3>
+                        <input type="text" class="userDest" placeholder="Enter Destination">
+                    </div>
+                    <div class="dsBtn">
+                        <input type="button" id="dsBtn" value="Enter" onclick="window.location.href = '../html/awaiting.html';">
+                    </div>
+                </div>
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10840.84002691029!2d-1.4720027878833364!3d53.38072974915115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1638045176363!5m2!1sen!2suk"
+                class="placeMap" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>

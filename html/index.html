@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHUber</title>
+    <link rel="stylesheet" href="../css/passenger.css" type="text/css">
+    <link rel="shortcut icon" href="../images/favicon.png">
+    <script src="../scripts/map.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+</head>
+
+<body>
+    <div id="main">
+        <header class="passHeader">
+            <div class="headCont">
+                <a href="userPage.html">
+                <img src="../login/user.jpg" alt="user">
+                </a>
+            </div>
+            <div class="headCont1">
+                <h1>SHUber</h1>
+                <img src="../login/1f695.png" class="logo">
+            </div>
+        </header>
+        <div class="container">
+            <div id="userChoices">
+                <a href="destSet.html">
+                    <div id="choice">
+                        <img src="../images/compass.png" alt="Where to?">
+                        <h1>Where to?</h1>
+                    </div>
+                </a>
+                <a href="pastTrips.html">
+                    <div id="choice">
+                        <img src="../images/clock.png" alt="Past Trips">
+                        <h1>Past Trips</h1>
+                    </div>
+                </a>
+            </div>
+            <div id="map"></div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10840.84002691029!2d-1.4720027878833364!3d53.38072974915115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1638045176363!5m2!1sen!2suk"
+                class="placeMap" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly&channel=2"
+        async></script>
+</body>
+
+</html>
