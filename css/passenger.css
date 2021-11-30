@@ -159,6 +159,9 @@ body{
     text-align: center;
     margin: 0px;
 }
+#confirm p{
+    margin: 5px;
+}
 #destConf{
     margin-top: 50px;
 }
